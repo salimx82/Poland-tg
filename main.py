@@ -17,7 +17,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # টেলিগ্রাম বট টোকেন (Render Environment Variable থেকে নিবে)
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TOKEN = os.getenv("8595125746:AAFb_TvEhoNlHBsd0bNt-O1ATSWgTG451Qs")
 if not TOKEN:
     logger.error("TELEGRAM_BOT_TOKEN environment variable not set!")
     raise ValueError("Please set TELEGRAM_BOT_TOKEN environment variable")
